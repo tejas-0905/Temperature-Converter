@@ -14,4 +14,5 @@ kel.value = ((f - 32) * 5/9 + 273.15).toFixed(2);
 kel.addEventListener("input", () => {
 let k = parseFloat(kel.value);
 cel.value = (k - 273.15).toFixed(2);
-  
+  fah.value = ((k - 273.15) * 9/5 + 32).toFixed(2);
+});
