@@ -16,3 +16,4 @@ let k = parseFloat(kel.value);
 cel.value = (k - 273.15).toFixed(2);
   fah.value = ((k - 273.15) * 9/5 + 32).toFixed(2);
 });
+const modeToggle = document.getElementById("modeToggle");
