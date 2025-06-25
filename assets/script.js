@@ -8,3 +8,4 @@ kel.value = (c + 273.15).toFixed(2);
 });
 fah.addEventListener("input", () => {
 let f = parseFloat(fah.value);
+cel.value = ((f - 32) * 5/9).toFixed(2);
