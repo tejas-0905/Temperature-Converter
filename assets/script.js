@@ -28,3 +28,5 @@ const y = (window.innerHeight / 2 - e.pageY) / 25;
  container.style.transform = `rotateY(${-x}deg) rotateX(${y}deg)`;
 });
 document.addEventListener("mouseleave", () => {
+container.style.transform = `rotateY(0deg) rotateX(0deg)`;
+});
