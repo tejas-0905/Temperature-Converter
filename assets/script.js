@@ -21,3 +21,4 @@ const body = document.body;
 modeToggle.addEventListener("change", () => {
  body.classList.toggle("dark");
 });
+const container = document.getElementById("container");
