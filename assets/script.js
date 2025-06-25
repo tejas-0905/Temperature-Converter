@@ -3,3 +3,4 @@ const fah = document.getElementById("fah");
 const kel = document.getElementById("kel");
 cel.addEventListener("input", () => {
 let c = parseFloat(cel.value);
+fah.value = (c * 9/5 + 32).toFixed(2);
