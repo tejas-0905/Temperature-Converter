@@ -19,3 +19,5 @@ cel.value = (k - 273.15).toFixed(2);
 const modeToggle = document.getElementById("modeToggle");
 const body = document.body;
 modeToggle.addEventListener("change", () => {
+ body.classList.toggle("dark");
+});
