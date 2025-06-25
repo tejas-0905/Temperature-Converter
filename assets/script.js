@@ -7,3 +7,4 @@ fah.value = (c * 9/5 + 32).toFixed(2);
 kel.value = (c + 273.15).toFixed(2);
 });
 fah.addEventListener("input", () => {
+let f = parseFloat(fah.value);
