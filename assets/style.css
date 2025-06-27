@@ -80,3 +80,13 @@ h1 {
   margin-bottom: 20px;
   color: #77c4f0;
 }
+.input-wrapper {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
