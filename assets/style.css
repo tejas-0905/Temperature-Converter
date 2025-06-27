@@ -90,3 +90,11 @@ label {
   font-weight: 600;
   margin-bottom: 6px;
 }
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
