@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f0f0, #e6e6e6);
+  color: #222;
+  transition: all 0.6s ease;
+  perspective: 1000px;
+  height: 100vh;
+  overflow: hidden;
+}
