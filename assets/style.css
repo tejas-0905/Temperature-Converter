@@ -98,3 +98,19 @@ input[type="number"] {
   border-radius: 10px;
   transition: all 0.3s ease;
 }
+body.dark {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #eee;
+}
+
+body.dark #container {
+  background-color: rgba(40, 40, 60, 0.95);
+  color: #eee;
+  box-shadow: 0 20px 60px rgba(140, 80, 255, 0.4);
+}
+
+body.dark input[type="number"] {
+  background-color: #222;
+  border: 2px solid #6f42c1;
+  color: #fff;
+}
