@@ -12,3 +12,9 @@ body {
   height: 100vh;
   overflow: hidden;
 }
+/* Toggle Switch */
+.theme-toggle {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
