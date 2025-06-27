@@ -61,3 +61,22 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+/* Main container */
+#container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease, background 0.6s ease, color 0.6s ease;
+  text-align: center;
+  will-change: transform;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #77c4f0;
+}
